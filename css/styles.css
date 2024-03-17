@@ -135,7 +135,6 @@ ol {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     padding: 188px 0;
     max-width: 1440px;
     margin: auto;
@@ -223,15 +222,19 @@ ol {
 .icon-container {
 display: flex;
 position: relative;
-    justify-content: center;
-    align-items: center;
-    height: 112px;
-     background-color: #f4f4fd;
-     border-radius: 4px;
-     border: 1px solid #8e8f99;
-     margin-bottom: 8px;
+justify-content: center;
+align-items: center;
+height: 112px;
+background-color: #f4f4fd;
+border-radius: 4px;
+border: 1px solid #8e8f99;
+margin-bottom: 8px;
 }
 
+.icon-container svg {
+width: 64px;
+height: 64px;
+}
 .head-title-list {
 justify-content: center;
 align-items: center;
@@ -483,6 +486,10 @@ align-items: center;
     padding: 100px 0;
 }
 
+.footer-logo-item {
+    align-items: baseline;
+    margin-right: 120px;
+}
 .logo-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -495,16 +502,20 @@ align-items: center;
     margin-bottom: 16px;
 }
 
-.footer-social-media-container {
+/* .footer-social-media-container {
 display: flex;
-margin-left: 120px;
 flex-direction: column;
 
-}
+} */
 
-.footer-social-media-container span {
-color: #fff;
+.footer-social-media-container p {
+color: #FFFFFF;
 margin-bottom: 16px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
 }
 
 .icon-list-footer {
