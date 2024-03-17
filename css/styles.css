@@ -111,6 +111,7 @@ ol {
     gap: 40px;
     justify-content: flex-end;
     padding-right: 156px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
     
 
 }
@@ -131,14 +132,14 @@ ol {
     box-sizing: border-box;
     display: block;
     background-image:
-    linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) ,
     url(/images/people-office\ 1.jpg) ;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: contain;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);;
     padding: 188px 0;
-    width: 1440px;
+    max-width: 1440px;
     
     
  } 
@@ -175,6 +176,7 @@ ol {
         cursor: pointer;
         background-color: #4D5AE5;
         color: #ffffff;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
     
@@ -216,13 +218,24 @@ ol {
 }
 
 .icon {
+    width: "64px" ;
+    height: "64px";
     margin-top: 120px;
 }
 
-.head-icon-container {
-    display:block;
+.icon-container {
+display: flex;
     justify-content: center;
     align-items: center;
+    height: 112px;
+     background-color: #f4f4fd;
+     border-radius: 4px;
+     border: 1px solid #8e8f99;
+     margin-bottom: 8px;
+}
+
+.head-icon-container {
+    display: flex;
 }
 
 .head-title-list {
