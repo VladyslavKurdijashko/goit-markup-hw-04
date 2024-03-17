@@ -218,13 +218,12 @@ ol {
 }
 
 .icon {
-    width: "64px" ;
-    height: "64px";
-    margin-top: 120px;
+    display: flex;
 }
 
 .icon-container {
 display: flex;
+position: relative;
     justify-content: center;
     align-items: center;
     height: 112px;
@@ -232,10 +231,6 @@ display: flex;
      border-radius: 4px;
      border: 1px solid #8e8f99;
      margin-bottom: 8px;
-}
-
-.head-icon-container {
-    display: flex;
 }
 
 .head-title-list {
@@ -288,6 +283,19 @@ align-items: center;
 
 
 /*========TEAM STYLES==============*/
+
+.icon-team {
+   fill: #fff;
+}
+.icon-container-team {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
 .team-section {
     background-color: #F4F4FD;
     padding: 120px 0;
