@@ -206,6 +206,8 @@ ol {
 
 .icon {
   display: flex;
+  width: 64px;
+  height: 64px;
 }
 
 .icon-container {
