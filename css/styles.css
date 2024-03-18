@@ -222,10 +222,6 @@ ol {
   margin-bottom: 8px;
 }
 
-.icon-container svg {
-  width: 64px;
-  height: 64px;
-}
 .head-title-list {
   justify-content: center;
   align-items: center;
