@@ -497,6 +497,28 @@ flex-direction: column;
   letter-spacing: 0.02em;
 }
 
+.icon-link-footer {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-link-footer:hover {
+  background-color: #31d0aa;
+}
+
+.icon-link-footer:focus {
+  background-color: #31d0aa;
+}
+
+.icon-team {
+  fill: var(--icon-color, #f4f4fd);
+}
+
 .icon-list-footer {
   display: flex;
   gap: 16px;
